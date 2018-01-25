@@ -1,6 +1,6 @@
 {% set name = "pythesint" %}
-{% set version = "1.4.1" %}
-{% set sha256 = "b913b2e709fd288edc38c301f2831ca14c86f3d1cfd3db4b4d6d201433197b02" %}
+{% set version = "1.4.3" %}
+{% set sha256 = "f431e6a832d40d9cd8fd9cdeca8b44bf69eb91f1e857c4d66c5056a0cbc46c87" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,6 @@ source:
 build:
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
-  skip: true  # [py35]
 
 requirements:
   build:
