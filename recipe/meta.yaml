@@ -1,6 +1,6 @@
 {% set name = "pythesint" %}
-{% set version = "1.4.5" %}
-{% set sha256 = "7b325edfad36804d11b0af7271d2d2c36ea620e179cb027177703ab31ca62c34" %}
+{% set version = "1.4.6" %}
+{% set sha256 = "555a545ec8416cd1c09921ac43cd9845e9d3c71082dd0ebe90fe250cfe6a43f2" %}
 
 package:
   name: {{ name|lower }}
