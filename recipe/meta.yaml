@@ -21,7 +21,7 @@ requirements:
     - pyyaml
     - requests
     - xdg 1.0.5  # [not win]
-    - setuptools
+    - pip
   run:
     - python
     - pyyaml
