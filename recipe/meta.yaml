@@ -1,6 +1,6 @@
 {% set name = "pythesint" %}
-{% set version = "1.4.7" %}
-{% set sha256 = "a3ae5f6eff54969989a12dfbec06b91f3546f4b1d571e4f24569597f47505027" %}
+{% set version = "1.4.10" %}
+{% set sha256 = "6e5d0a390fa4b228678439c4d6adc4621240612b0d16103a0f44db4a35d2a0e5" %}
 
 package:
   name: {{ name|lower }}
@@ -40,7 +40,7 @@ about:
   license: GPL-3.0
   license_family: GPL
   license_file: LICENSE
-  summary: 'An interface to metadata vocabularies for geospatial and other geophysical data'
+  summary: An interface to metadata vocabularies for geospatial and other geophysical data
 
   description: |
     pythesint provides access to controled vocabularies following
